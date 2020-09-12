@@ -1,0 +1,40 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="2" class="java.lang.String" itemvalue="djangorestframework" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="core.models.Skills.objects" />
+          <option value="core.models.Categories.objects" />
+          <option value="core.models.Industry.objects" />
+          <option value="core.models.Categories.DoesNotExist" />
+          <option value="core.models.Option.id" />
+          <option value="django.db.models.fields.CharField.replace" />
+          <option value="core.models.user.UserProfile.visibilities" />
+          <option value="core.models.media.Media.mediametadata" />
+          <option value="core.models.media.Media.visibilities" />
+          <option value="core.models.collections.Collections.visibilities" />
+          <option value="core.models.collections.Collections.information" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
